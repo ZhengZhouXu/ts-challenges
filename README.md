@@ -3,7 +3,7 @@
 Equal
 
 # 进度
--12
+-13
 
 # 知识点
 * 949: {} 用 Record<string, never> extends
