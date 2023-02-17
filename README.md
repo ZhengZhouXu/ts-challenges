@@ -3,9 +3,10 @@
 Equal
 
 # 进度
--15
+-13
 
 # 知识点
+* 递归不能返回never，否则整个返回值都是never
 * 949: {} 用 Record<string, never> extends
 * 1042: [T] extends [never] 判断是否为null，[T] 会使联合类型不可分配
 * 1097: 判断联合类型
