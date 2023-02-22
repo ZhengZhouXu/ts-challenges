@@ -4,7 +4,7 @@ Equal
 2257(跳过)
 
 # 进度
--12
+-20
 
 # 知识点
 * 递归不能返回never，否则整个返回值都是never
@@ -13,3 +13,4 @@ Equal
 * 1097: 判断联合类型
 * 1367: 判断索引列
 * 1978: 文本匹配，T extends `${infer Pre}${infer Mid}` 只能infer两个，三个中间会有问题
+* 2688: `${U}${string}`, ${string} 指代剩余string
