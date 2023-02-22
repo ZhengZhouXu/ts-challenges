@@ -4,7 +4,7 @@ Equal
 2257(跳过)
 
 # 进度
--20
+-17
 
 # 知识点
 * 递归不能返回never，否则整个返回值都是never
@@ -14,3 +14,6 @@ Equal
 * 1367: 判断索引列
 * 1978: 文本匹配，T extends `${infer Pre}${infer Mid}` 只能infer两个，三个中间会有问题
 * 2688: `${U}${string}`, ${string} 指代剩余string
+* 13298: 任何值都可以继承自{}，使用Merge，将交叉类型组合成一个对象
+* 10443: -?, 将可选属性改为不可选
+* 2793: -readonly, 去掉属性readonly
