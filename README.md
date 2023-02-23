@@ -17,3 +17,4 @@ Equal
 * 13298: 任何值都可以继承自{}，使用Merge，将交叉类型组合成一个对象
 * 10443: -?, 将可选属性改为不可选
 * 2793: -readonly, 去掉属性readonly
+* 3188: 可以对infer的类型做 extends，如：infer First extends string
