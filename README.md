@@ -4,7 +4,7 @@ Equal
 2257(跳过)
 
 # 进度
--17
+-20
 
 # 知识点
 * 递归不能返回never，否则整个返回值都是never
@@ -18,3 +18,4 @@ Equal
 * 10443: -?, 将可选属性改为不可选
 * 2793: -readonly, 去掉属性readonly
 * 3188: 可以对infer的类型做 extends，如：infer First extends string
+* 3243: 通过数组计数
